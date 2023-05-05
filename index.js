@@ -306,6 +306,11 @@ app.get('/', (req, res) => {
   res.send('Hello From Doctor Uncle own portal!')
 })
 
+app.get('/balamar', (req, res) => {
+  res.send('bal ashchhe na keno!?')
+})
+
+
 app.listen(port, () => {
   console.log(`Doctors App listening on port ${port}`)
 })
